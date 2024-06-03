@@ -1,0 +1,174 @@
+.bg-image {
+    background: url('bkg1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white; /* Zmienia kolory tekstu, by był widoczny na tle obrazka, dopasuj do swoich potrzeb */
+    height: 100vh; /* Wypełnia całą wysokość widoku */
+    max-height: 600px; /* Maksymalna wysokość sekcji */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-bg{
+    background-color: #d6ffda;
+}
+
+.bg-container {
+                background-color: #d6ffda; /* Dodaj swój kolor tła */
+                width: 100vw;
+                position: relative;
+                left: 50%;
+                right: 50%;
+                margin-left: -50vw;
+                margin-right: -50vw;
+                padding: 20px 0; /* Dostosuj padding do potrzeb */
+            }
+
+@media (max-width: 768px) {
+    .bg-image {
+        max-height: 400px; /* Maksymalna wysokość zmieniona dla mniejszych ekranów */
+    }
+}
+
+@media (max-width: 576px) {
+    .bg-image {
+        max-height: 300px; /* Maksymalna wysokość zmieniona dla najmniejszych ekranów */
+    }
+}
+
+.hero-section-overlay {
+    background-color: rgba(255, 255, 255, 0.7); /* Przezroczyste czarne tło */
+    padding: 30px;
+  }
+
+body{
+    background-color: #72ce7a;
+}
+
+h1 {
+    font-weight: bold;
+    color: #18691b; /* ciemno-zielony kolor */
+}
+
+h5 {
+    font-weight: bold;
+    color: #18691b; /* ciemno-zielony kolor */
+}
+
+a {
+    color: #d6ffda;
+  }
+  
+  /* Usunięcie podkreślenia po najechaniu na link */
+  a:hover {
+    text-decoration: none;
+    color: #18691b;
+  }
+
+.hero-p{
+    color: #18691b;
+}
+
+.h2-cent{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.text-left{
+    text-align: left ;
+    padding-bottom: 30px;
+}
+
+.category-tile {
+        height: 150px; /* Przykładowa wysokość kafelka */
+        background-color: #f8f9fa; /* Przykładowy kolor tła */
+        border: 1px solid #ddd; /* Przykładowe obramowanie */
+        text-align: center; /* Wyśrodkowanie tekstu w poziomie */
+        color: #d6ffda; /* Przykładowy kolor tekstu */
+        text-decoration: none; /* Usuń podkreślenie przy linkach */
+        
+    }
+
+.category-tile:hover {
+    background-color: #aed1b2; /* Możesz zmienić kolor tła po najechaniu */
+    transition: background-color 0.3s ease; /* Dodaj przejście */
+}
+
+.custom-text-color {
+        color: #18691b;
+}
+
+.bg-green {
+    background-color: #d6ffda;
+    padding: 100px 0;
+}
+
+.jumbotron {
+    margin-bottom: 0; /* Usuwa dolny margines sekcji hero */
+    padding-bottom: 0; /* Usuwa dolny padding sekcji hero */
+}
+
+.bg-container {
+    margin-top: 0; /* Usuwa górny margines drugiej sekcji */
+    padding-top: 0; /* Usuwa górny padding drugiej sekcji */
+}
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Przezroczyste tło */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #18691b;
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #18691b;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
